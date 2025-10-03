@@ -271,13 +271,17 @@ body {
 }
 
 .article-body a {
-    color: var(--primary-color);
+    color: #0066cc;
     text-decoration: underline;
     transition: color 0.2s ease;
 }
 
 .article-body a:hover {
-    color: var(--primary-dark);
+    color: #0052a3;
+}
+
+.article-body a:visited {
+    color: #551a8b;
 }
 
 .article-body strong {
